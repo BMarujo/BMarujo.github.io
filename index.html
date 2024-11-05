@@ -30,7 +30,7 @@
                         <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="#architecture_and_tools">Architecture</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#timeline">Timeline</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
@@ -264,52 +264,71 @@
                 </div>
             </div>
         </section>
-        <!-- About-->
-        <section class="page-section" id="about">
+        <!-- Timeline-->
+        <section class="page-section" id="Timeline">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Timeline</h2>
+                    <h3 class="section-subheading text-muted">Project Progress by Week</h3>
                 </div>
                 <ul class="timeline">
                     <li>
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
+                                <h4>First Week</h4>
+                                <h4 class="subheading">Tools Presentation</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body">
+                                <p class="text-muted">
+                                    Explored NewATCLL. Presentation of tools such as: React, Next.js, and ShadcnUI, and GeoJSON data format. Started mockups in Figma to highlight data, such as number of UEs and antenna locations. 
+                                </p>
+                                <p class="text-muted">
+                                    Set up MQTT server for testing Android data transmission and began Android Studio project setup.
+                                </p>
+                            </div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
+                                <h4>Second Week</h4>
+                                <h4 class="subheading">Metrics and Mockups</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body">
+                                <p class="text-muted">
+                                    Fist experience with metrics visualization tools, working with MQTT for data export. Explored RabbitMQ and Mosquitto for MQTT implementation, assessing the options. Started iPerf/Speedtest independent app for metrics collection. Exploration of a first version data format reference for the upcoming API integration.
+                                </p>
+                            </div>
                         </div>
                     </li>
                     <li>
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>December 2015</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
+                                <h4>Third Week</h4>
+                                <h4 class="subheading">MQTT and Data Handling</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body">
+                                <p class="text-muted">
+                                    Established MQTT connection between Network Survey app and PC (as MQTT Broker). Began storing MQTT data in CSV for future MongoDB integration. Discussed project architecture models, including website structure and content.
+                                </p>
+                            </div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>July 2020</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
+                                <h4>Fourth Week</h4>
+                                <h4 class="subheading">Mockup Clarifications and Testing</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body">
+                                <p class="text-muted">
+                                    Addressed questions on mockup designs and clarified the scope within ATCLL development, databases, and data visualization tools. MQTT data conversion tests from CSV to GeoJSON. Set up GitLab access and discussed workshop opportunities for project collaboration.
+                                </p>
+                            </div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
@@ -326,6 +345,7 @@
                 </ul>
             </div>
         </section>
+
         <!-- Team-->
         <section class="page-section bg-light" id="team">
             <div class="container">
