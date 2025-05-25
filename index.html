@@ -29,6 +29,7 @@
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#introduction">introduction</a></li>
                         <li class="nav-item"><a class="nav-link" href="#architecture_and_tools">Architecture</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#project-video">Demo</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link" href="#timeline">Timeline</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
@@ -43,12 +44,13 @@
                 <a class="btn btn-primary btn-xl text-uppercase" href="#introduction">Show More</a>
             </div>
         </header>
-       <!-- Introduction -->
+
+        <!-- Introduction -->
         <section class="page-section" id="introduction">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Introduction</h2>
-                    <h3 class="section-subheading text-muted">Building a comprehensive 5G data collection and visualization solution for Smart Cities.</h3>
+                    <h3 class="section-subheading text-muted">A full-stack 5G monitoring platform with real-time testing, visualization, and remote control capabilities for Smart Cities.</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-6">
@@ -58,7 +60,7 @@
                         </span>
                         <h4 class="my-3">Android Development</h4>
                         <p class="text-muted">
-                            The primary goal of the Android application is to provide a flexible tool for collecting a wide range of metrics directly from the User Equipment (UE) on a private 5G network. This app is designed to gather critical data such as signal quality (RSSI), bandwidth, and connection stability metrics from iPerf and Speedtest results. Through MQTT we integrate the Android application with the Aveiro Tech City Living Lab (ATCLL) platform, allowing collected metrics to flow into a unified Smart City visualization environment for a better understanding of urban data.
+                            Our Android app is designed to collect critical 5G metrics directly from the user's device, including signal strength, connection type, and advanced New Radio (NR) measurements. It can also run speed benchmarks using iPerf and Speedtest. These tests can be launched manually or remotely from the web platform. When a test request is sent from the web dashboard, the app runs it automatically and sends back the results in real time. All measurements are transmitted using MQTT and Kafka to the Aveiro Tech City Living Lab (ATCLL) platform, where they are processed and visualized.
                         </p>
                     </div>
                     <div class="col-md-6">
@@ -68,7 +70,7 @@
                         </span>
                         <h4 class="my-3">Web Development</h4>
                         <p class="text-muted">
-                            The web application focuses on the real-time and historical visualization of data collected across the ATCLL's private 5G network. Leveraging React and Next.js for dynamic and spatial data representation, this platform displays network metrics from gNodeBs, UEs, and other ATCLL infrastructure on a city-wide map. The web app will serve as a comprehensive dashboard, displaying aggregated quality metrics to assess connectivity across different city regions and aiding in ongoing Smart City optimizations.
+                            The web application presents a clear and interactive dashboard to monitor network performance across the ATCLL 5G infrastructure. Built with React and Next.js, it displays real-time and historical metrics such as signal quality, throughput, latency, and device location. Users can view network activity on a city-wide map, filter by device, gNodeB and time range, and remotely trigger speed and iperf tests on connected Android devices. This tool helps researchers and operators better understand network behavior and make smarter infrastructure decisions.
                         </p>
                     </div>
                 </div>
@@ -166,7 +168,18 @@
                 </div>
             </div>
         </section>
-        
+
+        <!-- Project Video -->
+        <section class="page-section" id="project-video">
+            <div class="container text-center">
+                <h2 class="section-heading text-uppercase">Project Demo</h2>
+                <h3 class="section-subheading text-muted">Watch a live demo of our data collection and visualization platform.</h3>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/4Hq_XDmNDrY" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
         <!-- Portfolio Grid -->
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
