@@ -468,3 +468,5 @@ keydname: CN=localhost.localdomain, OU=F-Droid
 # every run, set this to true:
 #
 # refresh_scanner: true
+#
+apksigner: "/home/marujo/Android/Sdk/build-tools/36.1.0/apksigner"

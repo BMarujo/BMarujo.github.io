@@ -1,19 +1,5 @@
 {
   "repo": {
-    "name": {
-      "en-US": "My First F-Droid Repo Demo"
-    },
-    "description": {
-      "en-US": "This is a repository of apps to be used with F-Droid. Applications in this repository are either official binaries built by the original application developers, or are binaries built from source by the admin of f-droid.org using the tools on https://gitlab.com/fdroid."
-    },
-    "icon": {
-      "en-US": {
-        "name": "/icons/icon.png",
-        "sha256": "e08e9de1e4a2ce26900619337f9d1a9e5b203c516d36d916fce163eb2057ec03",
-        "size": 684
-      }
-    },
-    "address": "https://BMarujo.github.io/repo",
     "timestamp": 1771415662000,
     "categories": {
       "fdroid": {

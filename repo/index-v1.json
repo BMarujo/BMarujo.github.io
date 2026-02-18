@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1771203398000,
+    "timestamp": 1771415662000,
     "version": 20002,
     "name": "My First F-Droid Repo Demo",
     "icon": "icon.png",
@@ -19,26 +19,26 @@
       "suggestedVersionCode": "2147483647",
       "license": "Unknown",
       "name": "NPUA",
-      "added": 1771201952000,
+      "added": 1771415591000,
       "packageName": "com.example.npua",
-      "lastUpdated": 1771201952000
+      "lastUpdated": 1771415591000
     }
   ],
   "packages": {
     "com.example.npua": [
       {
-        "added": 1771201952000,
+        "added": 1771415591000,
         "apkName": "app-release.apk",
-        "hash": "fde59aefe16f3f7dacc9c3a2556ff155cf1b9beef207e860fed8f68b9f76724c",
+        "hash": "11c529437e371eb72f0dbfd729dffc56ec2faa81197aeaaf14360fc443945660",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
           "arm64-v8a"
         ],
         "packageName": "com.example.npua",
-        "sig": "2c3443b8474c3a920a02a8bd1ccbd767",
-        "signer": "ca24ca86c2f1f34abe1d262513c13d1dbf3790fc8d0354a28df758adeec593d9",
-        "size": 4783579,
+        "sig": "0cc6371c771ee48a40f780ef708284c0",
+        "signer": "a8c478be30f68afe34cc38b5c315520be54aea7c964da4defdd7e9e6a81b1df8",
+        "size": 4652247,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
