@@ -1,18 +1,78 @@
 {
   "repo": {
-    "timestamp": 1771421174000
+    "timestamp": 1771421948000
   },
   "packages": {
     "com.example.npua": {
       "metadata": {
-        "added": 1771421174000,
-        "lastUpdated": 1771421174000
+        "added": 1771421948000,
+        "lastUpdated": 1771421948000
       },
       "versions": {
-        "761abd27b9f556de361789a736b60087e0bc92d969d2177c318779f25aa34b3c": {
-          "added": 1771421174000,
+        "761abd27b9f556de361789a736b60087e0bc92d969d2177c318779f25aa34b3c": null,
+        "968247914bc807c6122a7e4ccf626637f22e1ee652b4d68efda92dce8a6af79c": {
+          "added": 1771421948000,
           "file": {
-            "name": "/app-release2.apk"
+            "name": "/app-release.apk",
+            "sha256": "968247914bc807c6122a7e4ccf626637f22e1ee652b4d68efda92dce8a6af79c",
+            "size": 4652247
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "3.0",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "a8c478be30f68afe34cc38b5c315520be54aea7c964da4defdd7e9e6a81b1df8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_LOCATION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_PHONE_NUMBERS"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.example.npua.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
           }
         }
       }

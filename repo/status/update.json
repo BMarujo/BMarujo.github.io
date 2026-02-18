@@ -9,13 +9,17 @@
     "--pretty"
   ],
   "disabled": [],
-  "endTimestamp": 1771421177166,
+  "endTimestamp": 1771421950142,
   "failedBuilds": {},
   "fdroiddata": {
-    "commitId": "e14a88d77a600820e9ad65c89c1c6e095b440d89",
-    "isDirty": false,
-    "modifiedFiles": [],
-    "untrackedFiles": []
+    "commitId": "2a58ed62009e0387223035213e24cd51b73028a4",
+    "isDirty": true,
+    "modifiedFiles": [
+      "repo/app-release2.apk"
+    ],
+    "untrackedFiles": [
+      "repo/app-release.apk"
+    ]
   },
   "jarsigner": "/usr/lib/jvm/java-21-openjdk/bin/jarsigner",
   "keytool": "/usr/lib/jvm/java-21-openjdk/bin/keytool",
@@ -29,14 +33,14 @@
     "com.example.npua"
   ],
   "stages": {
-    "delete_disabled_builds": 1771421174485,
-    "index.make repo": 1771421174890,
-    "prepare_apps repo": 1771421174889,
-    "process_apks": 1771421174485,
-    "read_added_date_from_all_apks": 1771421174889,
-    "remove_apks": 1771421174889,
-    "scan_repo_files": 1771421174888
+    "delete_disabled_builds": 1771421947978,
+    "index.make repo": 1771421948294,
+    "prepare_apps repo": 1771421948292,
+    "process_apks": 1771421947978,
+    "read_added_date_from_all_apks": 1771421948292,
+    "remove_apks": 1771421948289,
+    "scan_repo_files": 1771421948288
   },
-  "startTimestamp": 1771421174000,
+  "startTimestamp": 1771421947000,
   "subcommand": "update"
 }
