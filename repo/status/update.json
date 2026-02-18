@@ -9,40 +9,15 @@
     "--pretty"
   ],
   "disabled": [],
-  "endTimestamp": 1771415664354,
+  "endTimestamp": 1771416107447,
   "failedBuilds": {},
   "fdroiddata": {
-    "commitId": "4810054025517dcd8ce6cca4961dc90b3715dcb1",
+    "commitId": "44b5dec3b6e85f9d010ca01a931b9f018aa7528d",
     "isDirty": true,
     "modifiedFiles": [
-      "config.yml",
-      "repo/app-release.apk",
-      "repo/diff/1771201952000.json",
-      "repo/diff/1771203152000.json",
-      "repo/diff/1771203281000.json",
-      "repo/entry.jar",
-      "repo/entry.json",
-      "repo/index-v1.jar",
-      "repo/index-v1.json",
-      "repo/index-v2.json",
-      "repo/index.jar",
-      "repo/index.xml",
-      "repo/status/running.json",
-      "repo/status/update.json"
+      "repo/app-release.apk"
     ],
-    "untrackedFiles": [
-      "README.md",
-      "repo/diff/1771203398000.json",
-      "repo/diff/1771414567000.json",
-      "repo/diff/1771414586000.json",
-      "repo/diff/1771414686000.json",
-      "repo/diff/1771414704000.json",
-      "repo/diff/1771415144000.json",
-      "repo/diff/1771415164000.json",
-      "repo/diff/1771415591000.json",
-      "repo/diff/1771415595000.json",
-      "repo/diff/1771415652000.json"
-    ]
+    "untrackedFiles": []
   },
   "jarsigner": "/usr/lib/jvm/java-21-openjdk/bin/jarsigner",
   "keytool": "/usr/lib/jvm/java-21-openjdk/bin/keytool",
@@ -56,14 +31,14 @@
     "com.example.npua"
   ],
   "stages": {
-    "delete_disabled_builds": 1771415662503,
-    "index.make repo": 1771415662506,
-    "prepare_apps repo": 1771415662505,
-    "process_apks": 1771415662503,
-    "read_added_date_from_all_apks": 1771415662504,
-    "remove_apks": 1771415662504,
-    "scan_repo_files": 1771415662504
+    "delete_disabled_builds": 1771416105148,
+    "index.make repo": 1771416105475,
+    "prepare_apps repo": 1771416105474,
+    "process_apks": 1771416105148,
+    "read_added_date_from_all_apks": 1771416105474,
+    "remove_apks": 1771416105474,
+    "scan_repo_files": 1771416105473
   },
-  "startTimestamp": 1771415662000,
+  "startTimestamp": 1771416105000,
   "subcommand": "update"
 }

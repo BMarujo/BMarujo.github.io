@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1771415662000,
+    "timestamp": 1771416105000,
     "categories": {
       "fdroid": {
         "name": {
@@ -23,19 +23,19 @@
         "preferredSigner": "a8c478be30f68afe34cc38b5c315520be54aea7c964da4defdd7e9e6a81b1df8"
       },
       "versions": {
-        "11c529437e371eb72f0dbfd729dffc56ec2faa81197aeaaf14360fc443945660": {
+        "761abd27b9f556de361789a736b60087e0bc92d969d2177c318779f25aa34b3c": {
           "added": 1771415591000,
           "file": {
             "name": "/app-release.apk",
-            "sha256": "11c529437e371eb72f0dbfd729dffc56ec2faa81197aeaaf14360fc443945660",
+            "sha256": "761abd27b9f556de361789a736b60087e0bc92d969d2177c318779f25aa34b3c",
             "size": 4652247
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a"
             ],
-            "versionName": "1.0",
-            "versionCode": 1,
+            "versionName": "2.0",
+            "versionCode": 2,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 36
