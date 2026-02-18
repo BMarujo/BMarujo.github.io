@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1771416105000,
+    "timestamp": 1771421174000,
     "categories": {
       "fdroid": {
         "name": {
@@ -12,11 +12,11 @@
   "packages": {
     "com.example.npua": {
       "metadata": {
-        "added": 1771415591000,
+        "added": 1771421174000,
         "categories": [
           "fdroid"
         ],
-        "lastUpdated": 1771415591000,
+        "lastUpdated": 1771421174000,
         "name": {
           "en-US": "NPUA"
         },
@@ -24,9 +24,9 @@
       },
       "versions": {
         "761abd27b9f556de361789a736b60087e0bc92d969d2177c318779f25aa34b3c": {
-          "added": 1771415591000,
+          "added": 1771421174000,
           "file": {
-            "name": "/app-release.apk",
+            "name": "/app-release2.apk",
             "sha256": "761abd27b9f556de361789a736b60087e0bc92d969d2177c318779f25aa34b3c",
             "size": 4652247
           },

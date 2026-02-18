@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1771416105000,
+    "timestamp": 1771421174000,
     "version": 20002,
     "name": "My First F-Droid Repo Demo",
     "icon": "icon.png",
@@ -19,16 +19,16 @@
       "suggestedVersionCode": "2147483647",
       "license": "Unknown",
       "name": "NPUA",
-      "added": 1771415591000,
+      "added": 1771421174000,
       "packageName": "com.example.npua",
-      "lastUpdated": 1771415591000
+      "lastUpdated": 1771421174000
     }
   ],
   "packages": {
     "com.example.npua": [
       {
-        "added": 1771415591000,
-        "apkName": "app-release.apk",
+        "added": 1771421174000,
+        "apkName": "app-release2.apk",
         "hash": "761abd27b9f556de361789a736b60087e0bc92d969d2177c318779f25aa34b3c",
         "hashType": "sha256",
         "minSdkVersion": 24,
