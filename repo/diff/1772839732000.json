@@ -1,21 +1,17 @@
 {
   "repo": {
-    "timestamp": 1772839732000
+    "timestamp": 1773192761000
   },
   "packages": {
     "com.example.npua": {
-      "metadata": {
-        "added": 1771421948000,
-        "lastUpdated": 1771421948000
-      },
       "versions": {
-        "11c529437e371eb72f0dbfd729dffc56ec2faa81197aeaaf14360fc443945660": null,
-        "29829412709dcb4cbbd32a35e6a0a54383b3c21fc75018b5b7fd2e78cf6077a3": {
+        "29829412709dcb4cbbd32a35e6a0a54383b3c21fc75018b5b7fd2e78cf6077a3": null,
+        "9bc61dcbef382dce8ed646c2ab27d59e0cbb872e3b9c91cfa091a470944cf7ea": {
           "added": 1771421948000,
           "file": {
             "name": "/app-release.apk",
-            "sha256": "29829412709dcb4cbbd32a35e6a0a54383b3c21fc75018b5b7fd2e78cf6077a3",
-            "size": 4654911
+            "sha256": "9bc61dcbef382dce8ed646c2ab27d59e0cbb872e3b9c91cfa091a470944cf7ea",
+            "size": 4656947
           },
           "manifest": {
             "nativecode": [
