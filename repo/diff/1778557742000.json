@@ -1,24 +1,24 @@
 {
   "repo": {
-    "timestamp": 1778557742000
+    "timestamp": 1778558490000
   },
   "packages": {
     "com.example.npua": {
       "versions": {
-        "c507ac74b631cf590a3b524542bb53ab3397970069f0d7137ec3720a55714e21": null,
-        "38df1eef768511dc971eebcd9192e56aaf37827584afcbe7c55727dd5f18f7e6": {
+        "38df1eef768511dc971eebcd9192e56aaf37827584afcbe7c55727dd5f18f7e6": null,
+        "1ae42dbd3bd0184a740c1b750646567bb96c3db54294b0830a356a742baa18e6": {
           "added": 1771421948000,
           "file": {
             "name": "/app-release.apk",
-            "sha256": "38df1eef768511dc971eebcd9192e56aaf37827584afcbe7c55727dd5f18f7e6",
-            "size": 4837687
+            "sha256": "1ae42dbd3bd0184a740c1b750646567bb96c3db54294b0830a356a742baa18e6",
+            "size": 4838339
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a"
             ],
-            "versionName": "11.0",
-            "versionCode": 11,
+            "versionName": "12.0",
+            "versionCode": 12,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 36
