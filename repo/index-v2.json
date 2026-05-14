@@ -14,7 +14,7 @@
       }
     },
     "address": "https://BMarujo.github.io/repo",
-    "timestamp": 1778716166000,
+    "timestamp": 1778717418000,
     "categories": {
       "fdroid": {
         "name": {
@@ -37,19 +37,19 @@
         "preferredSigner": "a8c478be30f68afe34cc38b5c315520be54aea7c964da4defdd7e9e6a81b1df8"
       },
       "versions": {
-        "4da718757a9c85cbb0d368d9e926c57633e56c79126a93af2e2c7e13460dc92e": {
+        "6895ab435c320d057a82507b254ca3e3fb13c63048860a722666e01a7fbed984": {
           "added": 1771421948000,
           "file": {
             "name": "/app-release.apk",
-            "sha256": "4da718757a9c85cbb0d368d9e926c57633e56c79126a93af2e2c7e13460dc92e",
-            "size": 4865479
+            "sha256": "6895ab435c320d057a82507b254ca3e3fb13c63048860a722666e01a7fbed984",
+            "size": 4864867
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a"
             ],
-            "versionName": "17.0",
-            "versionCode": 17,
+            "versionName": "18.0",
+            "versionCode": 18,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 36
