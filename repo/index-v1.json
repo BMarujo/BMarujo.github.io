@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1778717418000,
+    "timestamp": 1780762546000,
     "version": 20002,
     "name": "My First F-Droid Repo Demo",
     "icon": "icon.png",
@@ -29,7 +29,7 @@
       {
         "added": 1771421948000,
         "apkName": "app-release.apk",
-        "hash": "6895ab435c320d057a82507b254ca3e3fb13c63048860a722666e01a7fbed984",
+        "hash": "0c765f027957e0ff59966bf731776d2b1e8e38cb27c20a9dbb4dd8411ee0327b",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -38,7 +38,7 @@
         "packageName": "com.example.npua",
         "sig": "0cc6371c771ee48a40f780ef708284c0",
         "signer": "a8c478be30f68afe34cc38b5c315520be54aea7c964da4defdd7e9e6a81b1df8",
-        "size": 4864867,
+        "size": 4865135,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -94,8 +94,8 @@
             null
           ]
         ],
-        "versionCode": 18,
-        "versionName": "18.0"
+        "versionCode": 19,
+        "versionName": "19.0"
       }
     ]
   }
