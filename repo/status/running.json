@@ -1,7 +1,7 @@
 {
-  "/etc/issue.net": "\\S\nKernel \\r on \\m (\\l)",
+  "/etc/issue.net": "Ubuntu 26.04.1 LTS",
   "antiFeatures": {},
-  "apksigner": "/home/marujo/Android/Sdk/build-tools/36.1.0/apksigner",
+  "apksigner": "/home/marujo/fdroid/venv/bin/apksigner",
   "archivePolicy0": [],
   "commandLine": [
     "/home/marujo/fdroid/venv/bin/fdroid update",
@@ -9,18 +9,42 @@
     "--pretty"
   ],
   "disabled": [],
-  "endTimestamp": 1780762548416,
+  "endTimestamp": 1794964012337,
   "failedBuilds": {},
   "fdroiddata": {
-    "commitId": "597fc088d88253d8ac892fc4551926da82a2a273",
+    "commitId": "4439437b94c8118a081edb188ed9fa278cbfb5fd",
     "isDirty": true,
     "modifiedFiles": [
-      "repo/app-release.apk"
+      "README.md",
+      "config.yml",
+      "repo/app-release.apk",
+      "repo/diff/1778278094000.json",
+      "repo/diff/1778556778000.json",
+      "repo/diff/1778557742000.json",
+      "repo/diff/1778558490000.json",
+      "repo/diff/1778695804000.json",
+      "repo/diff/1778695977000.json",
+      "repo/diff/1778714073000.json",
+      "repo/diff/1778714907000.json",
+      "repo/diff/1778716166000.json",
+      "repo/diff/1778717418000.json",
+      "repo/entry.jar",
+      "repo/entry.json",
+      "repo/index-v1.jar",
+      "repo/index-v1.json",
+      "repo/index-v2.json",
+      "repo/index.jar",
+      "repo/index.png",
+      "repo/index.xml",
+      "repo/status/running.json",
+      "repo/status/update.json"
     ],
-    "untrackedFiles": []
+    "untrackedFiles": [
+      "repo/diff/1780762546000.json"
+    ]
   },
-  "jarsigner": "/usr/lib/jvm/java-21-openjdk/bin/jarsigner",
-  "keytool": "/usr/lib/jvm/java-21-openjdk/bin/keytool",
+  "jarsigner": "/home/marujo/fdroid/venv/bin/jarsigner",
+  "keytool": "/home/marujo/fdroid/venv/bin/keytool",
   "needsUpdate": [
     "com.example.npua"
   ],
@@ -31,14 +55,14 @@
     "com.example.npua"
   ],
   "stages": {
-    "delete_disabled_builds": 1780762546080,
-    "index.make repo": 1780762546428,
-    "prepare_apps repo": 1780762546426,
-    "process_apks": 1780762546080,
-    "read_added_date_from_all_apks": 1780762546426,
-    "remove_apks": 1780762546426,
-    "scan_repo_files": 1780762546425
+    "delete_disabled_builds": 1794964009952,
+    "index.make repo": 1794964010280,
+    "prepare_apps repo": 1794964010279,
+    "process_apks": 1794964009952,
+    "read_added_date_from_all_apks": 1794964010279,
+    "remove_apks": 1794964010276,
+    "scan_repo_files": 1794964010276
   },
-  "startTimestamp": 1780762546000,
+  "startTimestamp": 1794964009000,
   "subcommand": "update"
 }

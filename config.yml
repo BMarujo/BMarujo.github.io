@@ -469,4 +469,4 @@ keydname: CN=localhost.localdomain, OU=F-Droid
 #
 # refresh_scanner: true
 #
-apksigner: "/home/marujo/Android/Sdk/build-tools/36.1.0/apksigner"
+# apksigner is discovered from PATH or the Android SDK.
