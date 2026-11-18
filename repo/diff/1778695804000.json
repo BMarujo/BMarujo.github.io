@@ -6,7 +6,7 @@
         "size": 690
       }
     },
-    "timestamp": 1794970197000
+    "timestamp": 1794971276000
   },
   "packages": {
     "com.example.npua": {
@@ -15,19 +15,19 @@
       },
       "versions": {
         "c0b34d6f63097ca13afdf494586bccf5fc3a86a3126a3f82e31ceef1435d9fa9": null,
-        "284782591dbe6b393a6254e3f7c7719687e01edb09dc415525c6df79610c0e12": {
+        "2f1610ff73c5794449e9d489424d4ff095020e08903dd4f5560fa12aee902a8c": {
           "added": 1771421948000,
           "file": {
             "name": "/app-release.apk",
-            "sha256": "284782591dbe6b393a6254e3f7c7719687e01edb09dc415525c6df79610c0e12",
-            "size": 4720859
+            "sha256": "2f1610ff73c5794449e9d489424d4ff095020e08903dd4f5560fa12aee902a8c",
+            "size": 4721311
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a"
             ],
-            "versionName": "21.0",
-            "versionCode": 21,
+            "versionName": "22.0",
+            "versionCode": 22,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 36
