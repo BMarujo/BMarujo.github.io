@@ -9,10 +9,10 @@
     "--pretty"
   ],
   "disabled": [],
-  "endTimestamp": 1795016916591,
+  "endTimestamp": 1795039852886,
   "failedBuilds": {},
   "fdroiddata": {
-    "commitId": "6166dce18f92b10a642c5566139082152fa9f14e",
+    "commitId": "1b7f9a2a635405a5998d86039871856e8fa6e65d",
     "isDirty": true,
     "modifiedFiles": [
       "repo/app-release.apk"
@@ -31,14 +31,14 @@
     "com.example.npua"
   ],
   "stages": {
-    "delete_disabled_builds": 1795016913840,
-    "index.make repo": 1795016914221,
-    "prepare_apps repo": 1795016914220,
-    "process_apks": 1795016913840,
-    "read_added_date_from_all_apks": 1795016914220,
-    "remove_apks": 1795016914217,
-    "scan_repo_files": 1795016914217
+    "delete_disabled_builds": 1795039847958,
+    "index.make repo": 1795039848665,
+    "prepare_apps repo": 1795039848664,
+    "process_apks": 1795039847959,
+    "read_added_date_from_all_apks": 1795039848664,
+    "remove_apks": 1795039848661,
+    "scan_repo_files": 1795039848660
   },
-  "startTimestamp": 1795016913000,
+  "startTimestamp": 1795039847000,
   "subcommand": "update"
 }

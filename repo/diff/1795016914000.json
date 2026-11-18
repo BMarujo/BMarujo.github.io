@@ -1,33 +1,24 @@
 {
   "repo": {
-    "icon": {
-      "en-US": {
-        "sha256": "3ad6758917e0f1cde849fcafa0b2ff5fa860303b29a9985cef8bcb2c87767dc4",
-        "size": 690
-      }
-    },
-    "timestamp": 1795016914000
+    "timestamp": 1795039848000
   },
   "packages": {
     "com.example.npua": {
-      "metadata": {
-        "preferredSigner": "ad118d9e63b738a154004f9d2a6c14a62f3cd73c4245f4ecc33aa84a5eadfccb"
-      },
       "versions": {
-        "914d99bea2fa502598ff611c6cc3c5fa41ed9b8b59ab5b2b70ab06af2b5f8da0": null,
-        "70f5eb6ba874081c13973fa9638906ca71ef551c8505b51f837485bd483c435e": {
+        "70f5eb6ba874081c13973fa9638906ca71ef551c8505b51f837485bd483c435e": null,
+        "b88da606edd14979cb84790a3ae10c71fc8e9f80a8140aa8fada44206434053f": {
           "added": 1771421948000,
           "file": {
             "name": "/app-release.apk",
-            "sha256": "70f5eb6ba874081c13973fa9638906ca71ef551c8505b51f837485bd483c435e",
-            "size": 4752567
+            "sha256": "b88da606edd14979cb84790a3ae10c71fc8e9f80a8140aa8fada44206434053f",
+            "size": 4752551
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a"
             ],
-            "versionName": "25.0",
-            "versionCode": 25,
+            "versionName": "26.0",
+            "versionCode": 26,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 36
